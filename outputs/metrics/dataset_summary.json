@@ -1,0 +1,15 @@
+{
+  "observations_raw": 70000,
+  "observations_clean": 68925,
+  "input_features": 11,
+  "engineered_features": [
+    "bmi"
+  ],
+  "missing_values_raw": 0,
+  "duplicates_removed": 25,
+  "positive_class_rate": 0.4995,
+  "age_range_years": [
+    30.0,
+    65.0
+  ]
+}

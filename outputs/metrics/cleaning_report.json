@@ -1,0 +1,53 @@
+{
+  "rows_raw": 70000,
+  "rows_clean": 68925,
+  "rows_removed_total": 1075,
+  "percent_removed": 1.54,
+  "steps": [
+    {
+      "rule": "Duplicate observations (ignoring id)",
+      "rationale": "Identical clinical records with different ids are almost certainly repeats.",
+      "rows_removed": 25
+    },
+    {
+      "rule": "Missing values",
+      "rationale": "Rows with any missing field cannot be scored reliably.",
+      "rows_removed": 0
+    },
+    {
+      "rule": "Invalid category codes",
+      "rationale": "Categorical fields must hold their documented codes.",
+      "rows_removed": 0
+    },
+    {
+      "rule": "Implausible height (outside 120-220)",
+      "rationale": "Values like a 55 cm adult height or 10 kg weight are entry errors.",
+      "rows_removed": 105
+    },
+    {
+      "rule": "Implausible weight (outside 30-250)",
+      "rationale": "Values like a 55 cm adult height or 10 kg weight are entry errors.",
+      "rows_removed": 105
+    },
+    {
+      "rule": "Implausible systolic_bp (outside 70-250 mmHg)",
+      "rationale": "Negative values and values like 11500 or 16020 are typing errors.",
+      "rows_removed": 521
+    },
+    {
+      "rule": "Implausible diastolic_bp (outside 40-150 mmHg)",
+      "rationale": "Negative values and values like 11500 or 16020 are typing errors.",
+      "rows_removed": 181
+    },
+    {
+      "rule": "Systolic not greater than diastolic",
+      "rationale": "Systolic pressure is physiologically always above diastolic (swapped entries).",
+      "rows_removed": 138
+    },
+    {
+      "rule": "Implausible BMI (outside 12-70)",
+      "rationale": "Combination of height and weight is not physiologically credible.",
+      "rows_removed": 0
+    }
+  ]
+}
