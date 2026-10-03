@@ -154,9 +154,4 @@ Probability calibration and threshold tuning for a recall target; subgroup fairn
 MIT – see [LICENSE](LICENSE).
 
 
-python3 - <<'EOF'
-lines = open("README.md").read().split("\n")
-i = lines.index("{")
-open("README.md", "w").write("\n".join(lines[:i]).rstrip() + "\n")
-EOF
-tail -4 README.md
+
