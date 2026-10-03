@@ -154,4 +154,13 @@ Probability calibration and threshold tuning for a recall target; subgroup fairn
 MIT – see [LICENSE](LICENSE).
 
 
+{
+echo ""
+echo "## Screenshots"
+echo ""
+for f in docs/screenshots/*.png; do
+  echo "![Screenshot](${f// /%20})"
+  echo ""
+done
+} >> README.md
 
