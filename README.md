@@ -153,5 +153,21 @@ Probability calibration and threshold tuning for a recall target; subgroup fairn
 
 MIT – see [LICENSE](LICENSE).
 
+## Screenshots
 
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.20.42.png)
+
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.20.55.png)
+
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.22.33.png)
+
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.23.09.png)
+
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.23.49.png)
+
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.23.55.png)
+
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.24.06.png)
+
+![Screenshot](docs/screenshots/Screenshot%202026-10-03%20at%2001.24.10.png)
 
